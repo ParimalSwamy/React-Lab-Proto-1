@@ -1,0 +1,8 @@
+.box-panel-one{
+    background-image: linear-gradient(to left,white,white,white,#e0e6ee);
+    background-color : white;
+    width: 200px;
+    border-radius: 20px;
+    margin: 20px 20px;
+    box-shadow: 10px 10px 20px #ced5de;
+}
