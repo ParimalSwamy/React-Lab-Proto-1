@@ -1,0 +1,30 @@
+*{
+    font-family: $font-default;
+}
+
+.panel-one{text-align: center;}
+
+#panel-one{
+    &-time{
+        font-weight: bolder;
+        font-size:25px;
+        opacity: $text-opacity-dark;
+    }
+
+    &-date{
+        font-weight:bold;
+        font-size:15px;
+        opacity:$text-opacity-light;
+        text-align: center;
+    }
+}
+
+.todo-panel{
+    text-align: center;
+    opacity: $text-opacity-dark;
+}
+
+.task-input{
+    font-size: 20px;
+    opacity: $text-opacity-light;
+}

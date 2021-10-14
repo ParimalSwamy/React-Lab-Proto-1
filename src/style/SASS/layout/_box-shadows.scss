@@ -1,0 +1,18 @@
+.box-panel-one{
+    background-color : $bg-color;
+    width: $panel-one-w;
+    border-radius: $box-border-radius;
+    //margin: 20px 20px;
+    box-shadow: $box-shadow-h-pos $box-shadow-v-pos $box-shadow-blur $box-shadow-dark, $box-shadow-h-neg $box-shadow-v-neg $box-shadow-blur $box-shadow-light;
+    
+}
+
+.todo-box{
+    background-color : $bg-color;
+    width: $todo-panel-w;
+    height: $todo-panel-h;
+    border-radius: $box-border-radius;
+    //margin: 20px 20px;
+    box-shadow: $box-shadow-h-pos $box-shadow-v-pos $box-shadow-blur $box-shadow-dark, $box-shadow-h-neg $box-shadow-v-neg $box-shadow-blur $box-shadow-light;
+    
+}

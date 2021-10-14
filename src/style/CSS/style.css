@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #eaedf1; }
+
+* {
+  font-family: sans-serif; }
+
+.panel-one {
+  text-align: center; }
+
+#panel-one-time {
+  font-weight: bolder;
+  font-size: 25px;
+  opacity: 80%; }
+
+#panel-one-date {
+  font-weight: bold;
+  font-size: 15px;
+  opacity: 40%;
+  text-align: center; }
+
+.todo-panel {
+  text-align: center;
+  opacity: 80%; }
+
+.task-input {
+  width: 400px; }
+
+.panel-one {
+  width: 200px;
+  border-radius: 10px;
+  margin: 20px 20px; }
+
+#panel-one-time {
+  width: 80%;
+  margin: 10px auto;
+  background-color: transparent; }
+
+#panel-one-date {
+  width: 80%;
+  margin: 10px auto;
+  background-color: transparent; }
+
+.todo-panel {
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  margin: 20px 20px; }
+  .todo-panel h2 {
+    margin-bottom: 50px; }
+
+.box-panel-one {
+  background-color: #eaedf1;
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #cbd0d6, -5px -5px 10px white; }
+
+.todo-box {
+  background-color: #eaedf1;
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #cbd0d6, -5px -5px 10px white; }
