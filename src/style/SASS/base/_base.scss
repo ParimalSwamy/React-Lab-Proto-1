@@ -3,3 +3,11 @@
     padding: 0;
     background-color: $bg-color;
 }
+
+::placeholder{
+    opacity: $color-s;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}

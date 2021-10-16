@@ -1,5 +1,7 @@
 // Colors
 $bg-color : #eaedf1;
+$color-p : #474747;
+$color-s : #b3b3b3; 
 
 //box
 $box-border-radius : 10px;
@@ -16,8 +18,13 @@ $box-shadow-v-neg : -1* $box-shadow-v-pos;
 $panel-one-w : 200px;
 $todo-panel-w : 500px;
 $todo-panel-h : 500px;
+$todo-panel-btm-margin : 30px;
 
 //text
 $text-opacity-dark : 80%;
 $text-opacity-light : 40%;
 $font-default : "san-serif";
+$list-e-size : 20px;
+$list-e-time-size : 13px;
+
+$gutter : 5px

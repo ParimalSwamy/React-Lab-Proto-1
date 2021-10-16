@@ -8,23 +8,32 @@
     &-time{
         font-weight: bolder;
         font-size:25px;
-        opacity: $text-opacity-dark;
+        color: $color-p;
     }
 
     &-date{
         font-weight:bold;
         font-size:15px;
-        opacity:$text-opacity-light;
+        color:$color-s;
         text-align: center;
     }
 }
 
 .todo-panel{
     text-align: center;
-    opacity: $text-opacity-dark;
+    color: $color-p;
 }
 
 .task-input{
-    font-size: 20px;
-    opacity: $text-opacity-light;
+    font-size: $list-e-size;
+   // opacity: $color-p;
+}
+
+.list-e-text{
+    text-align: left;
+    font-size: $list-e-size;
+    &-time{
+        font-size: $list-e-time-size;
+        color: $color-s;
+    }
 }

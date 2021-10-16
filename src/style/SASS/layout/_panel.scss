@@ -24,8 +24,53 @@
     height: $todo-panel-h;
     border-radius: $box-border-radius;
     margin: 20px 20px;
-
+    overflow-y: scroll;
     & h2{
-        margin-bottom: 50px;
+        margin-bottom: $todo-panel-btm-margin;
     }
 }
+
+.list-e{
+    border: 1px solid $color-p;
+    width: 400px;
+    margin-left: 10%;
+    height: 50px;
+    border-radius: $box-border-radius;
+    &:not(:last-child){
+        margin-bottom: $gutter;
+    }
+    &-text{
+      //  border: 1px solid black;
+        width: 75%;
+        float: left;
+        margin-left: 10px;
+    }
+    &-btn{
+       // border: 1px solid black;
+        width: 20%;
+        float: right;
+        height: 50%;
+        margin-top : 10px;
+        margin-right: 2px;
+        opacity: $color-p;
+        &-edit{
+            float: left;
+            width: 33%;
+            height: 100%;
+            background-image: url("/src/style/Img/edit_black_24dp.svg");    
+        }
+        &-done{
+            float: left;
+            width: 32%;
+            height: 100%;
+            background-image: url("/src/style/Img/check_circle_black_24dp.svg");
+        }
+        &-del{
+            float: right;
+            width: 33%;
+            height: 100%;
+            background-image: url("/src/style/Img/remove_circle_outline_black_24dp.svg");
+        }
+    }
+}
+
