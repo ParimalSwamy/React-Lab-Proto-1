@@ -1,0 +1,37 @@
+.list-e-btn{
+    // border: 1px solid black;
+     width: 20%;
+     float: right;
+     height: 50%;
+     margin-top : 10px;
+     margin-right: 2px;
+     opacity: $color-p;
+     &-edit{
+         float: left;
+         width: 33%;
+         height: 100%;
+         background-image: url("/src/style/Img/edit_black_24dp.svg");    
+     }
+     &-done{
+         float: left;
+         width: 32%;
+         height: 100%;
+         background-image: url("/src/style/Img/check_circle_black_24dp.svg");
+         &-green{
+            background-image: url("/src/style/Img/check_circle_black_24dp.svg"); 
+            opacity: 50%;  
+         }
+     }
+     &-del{
+         float: right;
+         width: 33%;
+         height: 100%;
+         background-image: url("/src/style/Img/remove_circle_outline_black_24dp.svg");
+     }
+     &-submit{
+        float: left;
+        width: 33%;
+        height: 100%;
+        background-image: url("/src/style/Img/save_black_24dp.svg");
+     }
+ }

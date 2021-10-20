@@ -1,5 +1,4 @@
 .task-input:focus {
-  outline-width: 0;
   transform: scaleX(1.1);
   transition: 0.5s; }
 
@@ -46,11 +45,18 @@
     color: #b3b3b3; }
 
 .task-input {
+  outline-width: 0;
   width: 400px;
   border-top: none;
   border-left: none;
   border-right: none;
   margin-bottom: 30px; }
+
+.list-e-text-editing {
+  outline-width: 0;
+  border-top: none;
+  border-left: none;
+  border-right: none; }
 
 .panel-one {
   width: 200px;
@@ -88,28 +94,6 @@
     width: 75%;
     float: left;
     margin-left: 10px; }
-  .list-e-btn {
-    width: 20%;
-    float: right;
-    height: 50%;
-    margin-top: 10px;
-    margin-right: 2px;
-    opacity: #474747; }
-    .list-e-btn-edit {
-      float: left;
-      width: 33%;
-      height: 100%;
-      background-image: url("/src/style/Img/edit_black_24dp.svg"); }
-    .list-e-btn-done {
-      float: left;
-      width: 32%;
-      height: 100%;
-      background-image: url("/src/style/Img/check_circle_black_24dp.svg"); }
-    .list-e-btn-del {
-      float: right;
-      width: 33%;
-      height: 100%;
-      background-image: url("/src/style/Img/remove_circle_outline_black_24dp.svg"); }
 
 .box-panel-one {
   background-color: #eaedf1;
@@ -123,3 +107,34 @@
   height: 500px;
   border-radius: 10px;
   box-shadow: 5px 5px 10px #cbd0d6, -5px -5px 10px white; }
+
+.list-e-btn {
+  width: 20%;
+  float: right;
+  height: 50%;
+  margin-top: 10px;
+  margin-right: 2px;
+  opacity: #474747; }
+  .list-e-btn-edit {
+    float: left;
+    width: 33%;
+    height: 100%;
+    background-image: url("/src/style/Img/edit_black_24dp.svg"); }
+  .list-e-btn-done {
+    float: left;
+    width: 32%;
+    height: 100%;
+    background-image: url("/src/style/Img/check_circle_black_24dp.svg"); }
+    .list-e-btn-done-green {
+      background-image: url("/src/style/Img/check_circle_black_24dp.svg");
+      opacity: 50%; }
+  .list-e-btn-del {
+    float: right;
+    width: 33%;
+    height: 100%;
+    background-image: url("/src/style/Img/remove_circle_outline_black_24dp.svg"); }
+  .list-e-btn-submit {
+    float: left;
+    width: 33%;
+    height: 100%;
+    background-image: url("/src/style/Img/save_black_24dp.svg"); }

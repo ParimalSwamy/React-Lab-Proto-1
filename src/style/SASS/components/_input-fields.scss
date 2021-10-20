@@ -1,7 +1,15 @@
 .task-input{
+    outline-width: 0;
     width: 400px;
     border-top: none;
     border-left: none;
     border-right: none;
     margin-bottom: $todo-panel-btm-margin;
+}
+
+.list-e-text-editing{
+    outline-width: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
 }
