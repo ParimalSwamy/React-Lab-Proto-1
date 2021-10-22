@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/React-Lab-Proto-1/static/css/main.e9f0e257.chunk.css",
+    "main.js": "/React-Lab-Proto-1/static/js/main.e20ef3fa.chunk.js",
+    "main.js.map": "/React-Lab-Proto-1/static/js/main.e20ef3fa.chunk.js.map",
+    "runtime-main.js": "/React-Lab-Proto-1/static/js/runtime-main.1384e39c.js",
+    "runtime-main.js.map": "/React-Lab-Proto-1/static/js/runtime-main.1384e39c.js.map",
+    "static/js/2.d7aac671.chunk.js": "/React-Lab-Proto-1/static/js/2.d7aac671.chunk.js",
+    "static/js/2.d7aac671.chunk.js.map": "/React-Lab-Proto-1/static/js/2.d7aac671.chunk.js.map",
+    "index.html": "/React-Lab-Proto-1/index.html",
+    "static/css/main.e9f0e257.chunk.css.map": "/React-Lab-Proto-1/static/css/main.e9f0e257.chunk.css.map",
+    "static/js/2.d7aac671.chunk.js.LICENSE.txt": "/React-Lab-Proto-1/static/js/2.d7aac671.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/React-Lab-Proto-1/static/media/save_black_24dp.60e32a3f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1384e39c.js",
+    "static/js/2.d7aac671.chunk.js",
+    "static/css/main.e9f0e257.chunk.css",
+    "static/js/main.e20ef3fa.chunk.js"
+  ]
+}
